@@ -1,7 +1,6 @@
 ## Usage
 
 ```
-$ git clean -x -f -d
 $ autoreconf --install
 $ mkdir build
 $ cd build
@@ -9,6 +8,7 @@ $ ../configure
 $ make
 $ cd application
 $ ./bulletopengl
+$ git clean -x -f -d
 ```
 
 Developer NOTEs
